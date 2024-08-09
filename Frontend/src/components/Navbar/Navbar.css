@@ -1,0 +1,31 @@
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #49557e;
+    font-size: 18px;
+}
+.navbar-right{
+    display: flex;
+    gap: 20px;
+}
+.navbar button{
+    align-items: center;
+    font-size: 16px;
+    color: #49557e;
+    border: 10x solid tomato;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
